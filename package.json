@@ -1,8 +1,10 @@
 {
-  "dependencies": {
-    "json-server": "^1.0.0-beta.15"
+  "name": "sms-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
   },
-   "scripts": {
-   "start": "json-server --watch db.json --host 0.0.0.0 --port 3000"
- }
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
 }
